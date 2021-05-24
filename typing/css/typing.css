@@ -1,0 +1,72 @@
+/* リセット　*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 大枠 */
+body {
+    width: 100%;
+}
+/* タイピング画面 */
+.typepage {
+    background-color: rgb(159, 201, 221)
+}
+.typepagered {
+    background-color: rgb(245, 163, 163);
+}
+.typegame {
+    position: absolute;
+    top: 22px;
+    left: 1px;
+    text-align: center;
+    width: 497px;
+    height: 140px;
+}
+.nihongo {
+    font-size: 40px;
+    font-family: 'Yu Mincho';
+    font-weight: 800;
+    line-height: 83px;
+}
+.romazi {
+    font-size: 45px;
+    font-family: 'Monotype Corsiva';
+}
+.typingbuttom {
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+    border: 2px solid rgb(54, 143, 179);
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: .4s;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.typingbuttom:hover {
+    background-color: #000;
+    border-color: rgb(88, 133, 151);
+    color: snow;
+}
+.zikan {
+    font-size: 30px;
+    font-family: 'Latha';
+    font-weight: 800;
+    line-height: 50px;
+}
+.misstype {
+    font-size: 30px;
+    font-family: 'Latha';
+    font-weight: 800;
+    line-height: 50px;
+}
+.ranker {
+    font-size: 30px;
+    font-family: 'Latha';
+    font-weight: 800;
+    line-height: 50px;
+}
